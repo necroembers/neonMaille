@@ -1,0 +1,127 @@
+body {
+	background: rgba(24,22,18,1);
+	color: #ededed;
+	font-family: 'Roboto Mono', 'Roboto', monospace, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	min-height: 100vh;
+	padding: 0;
+	text-align: center;
+}
+body h1, h2, h3 , h4, h5, h6 {
+	font: "Roboto Mono", 'Roboto', monospace;
+	text-align: justify;
+}
+body p {
+	font: 1em "Roboto Mono", 'Roboto', monospace;
+	font-weight: 300;
+	margin: 0 auto;
+	max-width: 950px;
+	text-align: center;
+}
+body a {
+	color: #65dcfe;
+	text-decoration: none;
+}
+body a:hover {
+	color: #ef36cd;
+	text-decoration: none;
+}
+
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+header {
+	font-family: ‘Roboto Mono’, ‘Roboto’, monospace;
+	text-align: center;
+}
+header img {
+	width: 42%;
+	max-width: 466px;
+	padding: 6px 12px;
+}
+
+hr.dash {
+	border: 0;
+	border-bottom: 1px dashed #9cf;
+	height: 0;
+	margin: 0 auto;
+	padding: 6px 0;
+	text-align: center;
+	width: 69%;
+}
+
+.title {
+	color: #efefef;
+	font-size: 1.42em;
+	padding: 16px 1px;
+}
+.illustration {
+	color: #ffffff;
+	text-align: center;
+}
+
+.gallery {
+	color: #ffffff;
+	text-align: center;
+	line-height: 0;
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	position: static;
+	display: inline-block;
+	width: 90%;
+}
+@media only screen and (min-width : 921px) and (max-width: 1024px) {
+	.gallery {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+@media only screen and (min-width : 481px) and (max-width: 920px) {
+	.gallery {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+@media only screen and (min-width : 200px) and (max-width: 480px) {
+	.gallery {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
+.gallery img {
+	position: relative;
+	padding: 5px;
+	margin-bottom: 2px;
+	transition: 0.4s;
+	width: 24%;
+	height: auto;
+	max-width: 420px;
+}
+.gallery img:hover {
+	filter: blur(1px) drop-shadow(2px 2px 3px #131313);
+}
+
+footer {
+	bottom: 0;
+	color: #aaeedd;
+	font-size: 1em;
+	font-weight: 700;
+	margin: -6px -6px;
+	padding: 13px 6px;
+	text-align: center;
+}
+footer a {
+	color: #aaeedd;
+}
+footer a:hover {
+	color: #ff6969;
+}
