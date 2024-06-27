@@ -1,5 +1,5 @@
 body {
-	background: rgba(24,22,18,1);
+	background: rgba(24,22,22,1);
 	color: #ededed;
 	font-family: 'Roboto Mono', 'Roboto', monospace, sans-serif;
 	font-size: 1em;
@@ -40,9 +40,9 @@ header {
 	text-align: center;
 }
 header img {
-	width: 42%;
-	max-width: 466px;
-	padding: 6px 12px;
+	width: 69%;
+	max-width: 1200px;
+	padding: 6px 9px;
 }
 
 hr.dash {
